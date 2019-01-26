@@ -30,9 +30,34 @@
    */
   
   h1 {
-    font-size: 2em;
+    font-size: 30pt;
     margin: 0.67em 0;
   }
+  h2 {
+    font-size: 26pt;
+    margin: 0.67em 0;
+  } 
+  h3 {
+    font-size: 23pt;
+    margin: 0.67em 0;
+  }
+  h4 {
+    font-size: 20pt;
+    margin: 0.67em 0;
+  }
+  h5 {
+    font-size: 18pt;
+    margin: 0.67em 0;
+  }
+  h6 {
+    font-size: 15pt;
+    margin: 0.67em 0;
+  }
+  p {
+    font-size: 14pt;
+    margin: 0.67em 0;
+  }
+
   
   /* Grouping content
      ========================================================================== */

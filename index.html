@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <!-- ======== Links to CSS ========= -->
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,600|Noto+Sans" rel="stylesheet">
         <!-- Resets CSS -->
         <link rel="stylesheet" href="normalize.css">
         <!-- Resets CSS from 16.3 -->
@@ -51,13 +52,13 @@
         <!--Content Container-->
         <div class="content-container">
             <!--=========== Guidelines Section ============ -->
-            <article id="Guidelines">
+            <article>
                 <!--Header-->
-                <h1>
-                    Welcome to the USPS Government Agency Guidelines
-                </h1>
+                <center><h1 class="ibmplexserif">
+                    Welcome to the DoED Government Agency Guidelines Page
+                </h1></center>
                 <!--Copy-->
-                <p>The User Interface Style Guide is here to help maintain your brand across multiple platforms (desktop, tablet, mobile, ios, android, etc) and across multiple markets. Constant iteration requires both an efficient workflow and a well defined collection of core UI elements that can be assembled quickly. Reinventing the wheel is out and standards are in.</p>  
+                <p style= "margin: 0 auto" >This style guide for the Department of Education aims to provide guidelines on maintaining cohesive branding across multiple platforms: Web, Tablet, and Mobile. </p>  
             </article>
             <hr>
             <!--=========== End Guidelines Section ============ -->
@@ -76,58 +77,60 @@
             <!--=========== End Logo Section ============ -->
 
             <!--=========== Typography Section ============ -->
-            <article id="Typography">
+            <article><center>
                 <h1>
                     Typography
                 </h1>
                 <div class="type-faces">
-                    <p> The USPS uses the following two typefaces:</p>
-                    <h2 class="type-faces-02">
-                        Open Sans
+                    <h6> DoED uses the following two typefaces:</h6>
+                    <h2 class="ibmplexserif">
+                        IBM Plex Serif
                     </h2>
-                    <p> Open sans is to be used for headers.</p>
-                    <h2 class="type-faces-01">
-                        Lucida Sans
+                    <p> IBM Plex Serif is to be used for headers.</p>
+                    <h2 class="notosans">
+                        Noto Sans
                     </h2>
-                    <p> Lucida sans is to be used for headers.</p>
+                    <p> Noto Sans is to be used for paragraphs and small text.</p>
                 </div>
                 <div class="type-styles">
-                    <h1>
+                    <h1 class="ibmplexserif">
                         This is an H1.
                     </h1>
-                    <h2>
+                    <h2 class="ibmplexserif">
                         This is an H2.
                     </h2>
-                    <h3>
+                    <h3 class="ibmplexserif">
                         This is an H3.
                     </h3>
-                    <h4>
+                    <h4 class="ibmplexserif">
                         This is an H4.
                     </h4>
-                    <h5>
+                    <h5 class="ibmplexserif">
                         This is an H5.
                     </h5>
-                    <h6>                           
+                    <h6 class="ibmplexserif">                           
                         This is an H6.
                     </h6>
-                    <p> This is a paragraph</p>  
+                    <p class="notosans"> 
+                        This is a paragraph.
+                    </p>  
                 </div>  
                 <br>
                 <section class="code">
                     <div>
                     <h4>CSS</h4>
                         <pre>
-font-family: Verdana, Geneva, Tahoma, sans-serif; 
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Noto Sans', sans-serif;
                         </pre>
                     </div>
                 </section>
-            </article>
+            </center></article>
             <hr>
             <!--=========== End Typography Section ============ -->
 
             <!--=========== Color Section ============ -->
-            <article id="Color" class="center">
+            <article id="Color" class="center"><center>
                     <h1>
                         Colors
                     </h1>
@@ -136,35 +139,12 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
                         Primary Colors
                     </h3>
                     <!--Color Palette / red-->
-                    <div class="row-container">
+                    <div class="row-container color-item">
                         <div class="color-item">
-                            <span class="color-shape color-red">
-
-                            </span>
-                            <p class= "colorBox">#00000</p>
-                            <p>#00000</p>
+                            <p class= "colorBox1">#FFD00E</p>
+                            <p class= "colorBox2">#0677E8</p>
                         </div>
-                        <div class="color-item">
-                            <span class="color-shape color-orange">
-
-                            </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
-                        </div>
-                        <div class="color-item">
-                            <span class="color-shape color-yellow">
-
-                            </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
-                        </div>
-                        <div class="color-item">
-                            <span class="color-shape color-green">
-
-                            </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
-                        </div>
+                        
                     </div>
                     <br>
                     <!-- Secondary Colors-->
@@ -172,59 +152,25 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
                             Secondary Colors
                         </h3>
                     <!--Color Palette / red-->
-                    <div class="row-container">
-                        <div class="color-item">
-                            <span class="color-shape color-blue">
-
-                            </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
+                    <div class="row-container color-item">
+                        <div class="color-item">                    
+                            <p class= "colorBox3">#FF9440D</p>
+                            <p class= "colorBox4">#0934E8</p>
                         </div>
-                        <div class="color-item">
-                            <span class="color-shape color-purple">
-
-                            </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
-                        </div>
-                        <div class="color-item">
-                            <span class="color-shape color-gray">
-
-                            </span>
                     
-                            <p>#00000</p>
-                            <p>#00000</p>
-                        </div>
-                        <div class="color-item">
-                            <span class="color-shape color-black">
-
-                            </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
-                        </div>
-                    </div>    
-                    <section class="code">
-                            <div>
-                            <h4>CSS</h4>
-                                <pre>
-/*Primary Colors*/                
-button {
-    background: tomato;
-    height: 40px;
-    width: 120px;
-    border-radius: 4px;
-    padding: 5px;
-    margin: 20px;
-}
-
-button:hover {
-    background: yellow;
-}
-  
-                                </pre>
-                            </div>
-                        </section>
-            </article>
+                    </div>
+                    <br>
+                    <h3>
+                        Tertiary Colors
+                    </h3>
+                <!--Color Palette / red-->
+                <div class="row-container color-item">
+                    <div class="color-item">
+                        <p class= "colorBox5">#FFAF00</p>
+                    </div>
+                    
+                </div>      
+            </center></article>
             <hr>
             <!--=========== End Color Section ============ -->
 
