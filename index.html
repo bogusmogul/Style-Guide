@@ -16,6 +16,8 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
         <!-- Adds Icons -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!-- ======== End Links to CSS ======== -->
 </head>
 <!-- ============ Body content ============== -->
@@ -26,22 +28,22 @@
     ======================
     -->
     <aside>
-        <nav class="sidebar-container">
+        <nav class="sidebar-container"><center>
             <!--Logo -->
-            <img class="sidebar-logo" src="https://via.placeholder.com/150x150" width="150" height="150">
-            <!--Name of Government Agency -->
-            <p> Government Agency Content Style Guide</p>
-            <h2> Style Guide </h2>
+            <img class="sidebar-logo" src="doed_imgs/ed_logoblue.jpg" width="150" height="150">
+            
+            <h3 class="ibmplexserif"> DoED <br> Style Guide </h3>
+            <hr>
             <!--Anchor Links-->
-            <a href="#Guidelines" >Guidelines</a> 
-            <a href="#Logo" >Logo Rules</a> 
-            <a href="#Typography" >Typography</a> 
-            <a href="#Color" >Color</a> 
-            <a href="#Buttons" >Buttons</a> 
-            <a href="#Icons" >Icons</a> 
-            <a href="#Imagery" >Imagery</a> 
-            <a href="#Footer" >Footer</a> 
-        </nav>
+            <a href="#Guidelines"class="notosans">Guidelines</a> 
+            <a href="#Logo" class="notosans">Logo Rules</a> 
+            <a href="#Typography" class="notosans">Typography</a> 
+            <a href="#Color" class="notosans">Color</a> 
+            <a href="#Buttons" class="notosans">Buttons</a> 
+            <a href="#Icons" class="notosans">Icons</a> 
+            <a href="#Imagery" class="notosans">Imagery</a> 
+            <a href="#Footer" class="notosans">Footer</a> 
+        </center></nav>
     </aside>
     <!-- 
     ======================
@@ -55,42 +57,47 @@
             <article>
                 <!--Header-->
                 <center><h1 class="ibmplexserif">
-                    Welcome to the DoED Government Agency Guidelines Page
+                    Welcome to the Department of Education Government Agency Guidelines Page
                 </h1></center>
                 <!--Copy-->
-                <p style= "margin: 0 auto" >This style guide for the Department of Education aims to provide guidelines on maintaining cohesive branding across multiple platforms: Web, Tablet, and Mobile. </p>  
+                <p style= "margin: 0 auto" class="notosans">This style guide for the Department of Education aims to provide guidelines on maintaining cohesive branding across multiple platforms: Web, Tablet, and Mobile. </p>  
             </article>
             <hr>
             <!--=========== End Guidelines Section ============ -->
 
             <!--=========== Logo Section ============ -->
             <article id="Logo" class="margin">
-                <h1>
+                <h1 class="notosans">
                     Logo
                 </h1>
-                <div class="row-container-no-wrap ">
-                    <img src="images/logo/Logo-dark@2x.png" class="section-logo">
-                    <img src="images/logo/Logo-light@2x.png" class="section-logo">
-                </div>
+                <div><center>
+                    <img src="doed_imgs/ed_logoblue.jpg" class="logo space-between">
+                    <img src="doed_imgs/ed_logowhite.jpg" class="logo space-between">
+                    <hr>
+                    <h4 class="notosans">Application of Logos on Mobile, Tablet, and Web</h4>
+                    <img src="doed_imgs/ed_banner_iphone.jpg" class="iphone-nav">
+                    <img src="doed_imgs/ed_banner_ipad.jpg" class="ipad-nav">  
+                    <img src="doed_imgs/ed_banner_web.jpg" class="img-resize">                  
+                </center></div>
             </article>
             <hr>
             <!--=========== End Logo Section ============ -->
 
             <!--=========== Typography Section ============ -->
-            <article><center>
-                <h1>
+            <article id="Typography">
+                <h1 class="notosans">
                     Typography
                 </h1>
-                <div class="type-faces">
-                    <h6> DoED uses the following two typefaces:</h6>
+                <center><div class="type-faces">
+                    <h6 class="notosans"> DoED uses the following two typefaces:</h6>
                     <h2 class="ibmplexserif">
                         IBM Plex Serif
                     </h2>
-                    <p> IBM Plex Serif is to be used for headers.</p>
-                    <h2 class="notosans">
+                    <p class="notosans"> IBM Plex Serif is to be used for headers.</p>
+                    <h2 class="notosans pcolor">
                         Noto Sans
                     </h2>
-                    <p> Noto Sans is to be used for paragraphs and small text.</p>
+                    <p class="notosans"> Noto Sans is to be used for paragraphs and small text.</p>
                 </div>
                 <div class="type-styles">
                     <h1 class="ibmplexserif">
@@ -111,7 +118,7 @@
                     <h6 class="ibmplexserif">                           
                         This is an H6.
                     </h6>
-                    <p class="notosans"> 
+                    <p class="notosans pcolor"> 
                         This is a paragraph.
                     </p>  
                 </div>  
@@ -130,12 +137,12 @@ font-family: 'Noto Sans', sans-serif;
             <!--=========== End Typography Section ============ -->
 
             <!--=========== Color Section ============ -->
-            <article id="Color" class="center"><center>
-                    <h1>
+            <article id="Color" class="center">
+                    <h1 class="notosans">
                         Colors
                     </h1>
                     <!-- Primary Colors-->
-                    <h3>
+                    <center><h3 class="notosans">
                         Primary Colors
                     </h3>
                     <!--Color Palette / red-->
@@ -148,7 +155,7 @@ font-family: 'Noto Sans', sans-serif;
                     </div>
                     <br>
                     <!-- Secondary Colors-->
-                        <h3>
+                        <h3 class="notosans">
                             Secondary Colors
                         </h3>
                     <!--Color Palette / red-->
@@ -160,7 +167,7 @@ font-family: 'Noto Sans', sans-serif;
                     
                     </div>
                     <br>
-                    <h3>
+                    <h3 class="notosans">
                         Tertiary Colors
                     </h3>
                 <!--Color Palette / red-->
@@ -177,45 +184,73 @@ font-family: 'Noto Sans', sans-serif;
             <!--=========== End Color Section ============ -->
             
             <!--=========== Button Section ============ -->
-            <article id="Buttons" class="button">
-                    <h1>
+            <article id="Buttons">
+                    <h1 class="notosans">
                         Buttons
                     </h1>
                     <!-- Primary Buttons-->
-                    <div class="row-container">
-                        <button class="button-normal">
+                    <div class="row-container ibmplexserif">
+                        <button class="button button-normal text-white">
                             Normal
                         </button>
-                        <button class="button-hover">
+                        <button class="button button-hover text-white">
                             Hover
                         </button>
-                        <button class="button-pressed">
+                        <button class="button button-pressed text-white">
                             Pressed
                         </button>
-                        <button class="button-loading">
+                        <button class="button button-loading text-white">
                             <i class="fas fa-spinner"></i> Loading
                         </button>
-                        <button class="button-disable">
+                        <button class="button button-disable text-white">
                             Disabled
                         </button>
                     </div>
                     <section class="code">
                             <div>
                             <h4>CSS</h4>
-                                <pre>
-/*Primary Colors*/                
-button {
-    background: tomato;
-    height: 40px;
-    width: 120px;
-    border-radius: 4px;
-    padding: 5px;
-    margin: 20px;
+                                <pre class="notosans">
+               
+.button {
+    height: 24px;
+    width: 211px;
+    border-radius: 12px;
+    background: #FFD00E;
+    border: none;
+    margin: 30px;
+}
+.button-normal {
+    box-shadow: 0px 0px 40px 4px rgba(119, 119, 119, 0.23);
+    -moz-box-shadow: 0px 0px 40px 4px rgba(119, 119, 119, 0.23);
+    -webkit-box-shadow: 0px 0px 40px 4px rgba(119, 119, 119, 0.23);
+
 }
 
-button:hover {
-    background: yellow;
+.button-hover {
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.23);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.23);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.23);
+
 }
+
+.button-pressed {
+    box-shadow: 0px 0px 5px 4px rgba(119, 119, 119, 0.23);
+    -moz-box-shadow: 0px 0px 5px 4px rgba(119, 119, 119, 0.23);
+    -webkit-box-shadow: 0px 0px 5px 4px rgba(119, 119, 119, 0.23);
+
+}
+
+.button-loading {
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.23);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.23);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.23);
+
+}
+
+.button-disable {
+    background: lightgrey;
+}
+
   
                                 </pre>
                             </div>
@@ -226,18 +261,40 @@ button:hover {
 
             <!--=========== Icon Section ============ -->
             <article id="Icons">
-                <h1>
+                <h1 class="notosans">
                     Icons
                 </h1>
                 <div class="row-container usps-icons">
-                    <i class="fas fa-cubes"></i>
-                    <i class="fas fa-box"></i>
-                    <i class="fas fa-cube"></i>
-                    <i class="fas fa-envelope-square"></i>
-                    <i class="far fa-envelope"></i>
-                    <i class="fas fa-envelope-open-text"></i>
-                    <i class="fas fa-fighter-jet"></i>
-                    <i class="fas fa-shipping-fast"></i>
+                    <i class="material-icons">
+                        arrow_drop_down
+                        </i>
+                    <i class="material-icons">
+                        arrow_drop_up
+                        </i>
+                    <i class="material-icons">
+                        info
+                        </i>
+                    <i class="material-icons">
+                        search
+                        </i>
+                    <i class="material-icons">
+                        menu
+                        </i>
+                    <i class="material-icons">
+                        translate
+                        </i>
+                    <i class="material-icons">
+                        show_chart
+                        </i>
+                    <i class="material-icons">
+                        gavel
+                        </i>
+                    <i class="material-icons">
+                        email
+                        </i>                    
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter-square"></i>
+
                 </div>
             </article>
             <hr>
@@ -245,14 +302,11 @@ button:hover {
 
             <!--=========== Imagery Section ============ -->
             <article id="Imagery">
-                    <h1>
+                    <h1 class="notosans">
                         Imagery
                     </h1>
                     <div class="row-container-around">
-                        <img src="https://via.placeholder.com/350x250">
-                        <img src="https://via.placeholder.com/350x250">
-                        <img src="https://via.placeholder.com/350x150">
-                        <img src="https://via.placeholder.com/350x150">
+                        <center><img class="img-resize" src="doed_imgs/ed_imgs.jpg"></center>
                     </div>
                 </article>
                 <hr>
@@ -260,17 +314,17 @@ button:hover {
 
             <!--=========== Footer Section ============ -->
             <article id="Footer" class="social-icons">
-                <h1>
+                <h1 class="notosans">
                     Contact Me
                 </h1>
                 <div class="row-container-around">
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/harut-sukunyan-9b66ab167/">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://github.com/bogusmogul">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="mailto:YOUREMAIL">
+                    <a href="mailto:bogusmogul@gmail.com">
                         <i class="fa fa-envelope"></i>
                     </a>
                 </div>

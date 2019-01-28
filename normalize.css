@@ -58,6 +58,22 @@
     margin: 0.67em 0;
   }
 
+  .img-resize {
+    width: 80%;
+    height: auto;
+  }
+  .ipad-nav {
+    width: 786px;
+    height: auto;  
+  }
+  .logo {
+    width: 25%;
+    height: auto;
+  }
+  .space-between {
+    display: flex;
+    justify-content: space-between;
+  }
   
   /* Grouping content
      ========================================================================== */
@@ -92,6 +108,7 @@
   
   a {
     background-color: transparent;
+    margin: 20px;
   }
   
   /**

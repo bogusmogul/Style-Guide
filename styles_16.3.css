@@ -23,6 +23,46 @@ nav h2 {
     text-decoration: none;
 }
 
+.button {
+    height: 24px;
+    width: 211px;
+    border-radius: 12px;
+    background: #FFD00E;
+    border: none;
+    margin: 30px;
+}
+
+.button-normal {
+    box-shadow: 0px 0px 40px 4px rgba(119, 119, 119, 0.23);
+    -moz-box-shadow: 0px 0px 40px 4px rgba(119, 119, 119, 0.23);
+    -webkit-box-shadow: 0px 0px 40px 4px rgba(119, 119, 119, 0.23);
+
+}
+
+.button-hover {
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.23);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.23);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.23);
+
+}
+
+.button-pressed {
+    box-shadow: 0px 0px 5px 4px rgba(119, 119, 119, 0.23);
+    -moz-box-shadow: 0px 0px 5px 4px rgba(119, 119, 119, 0.23);
+    -webkit-box-shadow: 0px 0px 5px 4px rgba(119, 119, 119, 0.23);
+
+}
+
+.button-loading {
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.23);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.23);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.23);
+
+}
+
+.button-disable {
+    background: lightgrey;
+}
 /* 
 ====================================
 Sets up styles for .content-container 
@@ -67,6 +107,10 @@ Sets up styles for .content-container
 
 }
 
+.text-white {
+    color: white
+}
+
 .ibmplexserif {
     font-family: 'IBM Plex Serif', serif;
     font-weight: 600;
@@ -74,9 +118,11 @@ Sets up styles for .content-container
 }
 .notosans {
     font-family: 'Noto Sans', sans-serif;
-    color: #626262;
 }
 
+.pcolor {
+    color: #626262;
+}
 .color-item{
     justify-content: center;
     align-content: center;
@@ -166,11 +212,19 @@ BONUS: Sets up styles for mobile breakpoint
         font-size: 1.6em\;
         }
 
-    
+        .iphone-nav {
+            width: 80%;
+            height: auto;
+          }
+          .ipad-nav {
+            width: 80%;
+            height: auto;  
+          }
  
  
     .row-container-no-wrap {
-        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: center;
     }
  
     #Logo .section-logo {
